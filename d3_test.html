@@ -13,8 +13,16 @@
 <script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.3"></script>
 <script>
 
-document.body.appendChild(Plot.plot(options));
-
+document.body.appendChild(
+  Plot.plot({
+    x: {
+      domain: [new Date("1880-01-01"), new Date("2016-11-01")]
+    },
+    y: {
+      domain: [-0.78, 1.35]
+    }
+  })
+);
 </script>
 
   </body>
