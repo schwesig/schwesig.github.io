@@ -17,9 +17,10 @@
     />
 
     <script>
+      // https://raw.githubusercontent.com/bumbeishvili/sample-data/main/org.csv
       var chart;
       d3.csv(
-        'https://raw.githubusercontent.com/bumbeishvili/sample-data/main/org.csv'
+        'Example_Org_Chart.csv'
       ).then((dataFlattened) => {
         chart = new d3.OrgChart()
           .container('.chart-container')
