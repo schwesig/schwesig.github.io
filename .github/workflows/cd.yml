@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Hugo environment
-        run: echo "PATH=$HOME/actions_hugo/bin:\$PATH" >> $GITHUB_ENV
+        run: echo "PATH=$HOME/runner/actions_hugo/bin:\$PATH" >> $GITHUB_ENV
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
