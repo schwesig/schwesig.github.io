@@ -12,6 +12,9 @@ jobs:
   build-and-deploy-site:
     runs-on: ubuntu-latest
     steps:
+      - name: Install tar command
+        run: sudo apt-get update && sudo apt-get install -y tar
+
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
