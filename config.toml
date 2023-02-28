@@ -7,3 +7,45 @@ enableEmoji = true
 title = "Was Darf Satire"
 author = "Thorsten Schwesig"
 description = "Nicht erlaubt, nicht wichtig."
+profilePicture = "images/profile.jpg"
+copyright = "2022-{{ YEAR }}"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:schwesig@gmx.de"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/schwesig"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://github.com/schwesig"
+
+[[params.socialIcons]]
+icon = "fa-solid fa-address-card"
+title = "Address Card"
+url = "https://prv.schwesig.net"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
