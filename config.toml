@@ -10,6 +10,8 @@ description = "Nicht erlaubt, nicht wichtig."
 profilePicture = "images/profile.jpg"
 copyright = "2022-{{ YEAR }}"
 
+mainSections = ["blog"]
+
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
@@ -39,10 +41,10 @@ url = "https://prv.schwesig.net"
   url = "/"
 
   [[menu.main]]
-  name = "Posts"
+  name = "Blog"
   weight = 200
-  identifier = "posts"
-  url = "/post/"
+  identifier = "blog"
+  url = "/blog/"
 
   [[menu.main]]
   name = "About"
